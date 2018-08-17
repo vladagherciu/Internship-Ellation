@@ -1,0 +1,70 @@
+.stay-in-line {
+	display: flex;
+	padding: 52px 0;
+	justify-content: space-between;
+}
+
+.list {
+	display: flex;
+	list-style-type:none; 
+	padding-left: 0;
+	flex-wrap: wrap;
+}
+
+.media-list {
+	display: flex;
+	list-style-type:none;
+	flex-wrap: wrap;
+}
+
+.media-item {
+	padding-right: 20px;
+}
+
+.social-link {
+	display: block;
+}
+
+.social-svg {
+	fill: #b0aebb;
+	width: 16px;
+	transition: fill 0.3s linear;
+}
+
+.websait {
+	font-family: MarkPro;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.43;
+	color: #b0aebb;
+	text-decoration: none;
+	padding-right: 30px;
+	transition: color 0.3s linear;
+}
+
+.websait:hover {
+	color: white;
+}
+
+.youtube:hover {
+	fill: #ff0000;
+}
+
+.twitter:hover {
+	fill: #55acee;
+}
+
+.facebook:hover {
+	fill: #3B5998;
+}
+
+.instagram:hover {
+	fill: #cd486b;
+}
+
+.ellation {
+	font-family: Rubik-Light;
+	font-size: 12.8px;
+	line-height: 1.41;
+	color: #b0aebb;
+}

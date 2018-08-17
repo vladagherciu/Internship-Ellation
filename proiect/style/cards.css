@@ -1,0 +1,212 @@
+.use-tv {
+	margin: 200px 0 10px 0;
+	font-family: MarkPro;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.42;
+	color: #f9f9fa;
+}
+
+.house-of-cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.img {
+	max-width: 100%;
+}
+
+.card-a {
+	position: relative;
+	flex: 0 0 33.3%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.card-b {
+	position: relative;
+	flex: 0 0 50%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.text {
+	position: absolute;
+	top: 33px;
+	left: 0;
+	font-family: Rubik-Light;
+	font-size: 24px;
+	font-weight: bold;
+	color: #1b1a26;
+}
+
+.play {
+	left: 85px;
+}
+
+.xbox {
+	left: 116px;
+}
+
+.apple {
+	left: 116px;
+}
+
+.roku {
+	left: 286px;
+}
+
+.fire {
+	left: 285px;
+}
+
+.android {
+	left: 271px;
+}
+
+.switch {
+	left: 316px;
+}
+
+.link-card {
+	position: absolute;
+	display: block;
+	bottom: 30px;
+	right: 21px;
+	width: 154px;
+}
+
+.button {
+	display: block;
+	max-width: 100%;
+}
+
+@media screen and (max-width:800px) {
+	.text {
+		font-size: 20px;
+	}
+
+	.play {
+		right: 60px;
+		left: auto;
+	}
+
+	.xbox {
+		right: 80px;
+		left: auto;
+	}
+
+	.apple {
+		right: 90px;
+		left: auto;
+	}
+
+	.roku {
+		right: 140px;
+		left: auto;
+	}
+
+	.fire {
+		right: 110px;
+		left: auto;
+	}
+
+	.android {
+		right: 75px;
+		left: auto;
+	}
+
+	.switch {
+		right: 75px;
+		left: auto;
+	}
+
+	.link-card {
+		right: 30px;
+		bottom: 35px;
+		width: 130px;
+	}
+} 
+
+@media screen and (max-width:568px) {
+	.use-tv {
+		font-size: 21px;
+		text-align:center;
+	}
+
+	.card-a {
+		flex:0 0 100%;
+		max-width: 330px;
+		height: 275px;
+		overflow: hidden;
+		margin: 0 10px;
+	}
+
+	.card-b {
+		flex: 0 0 100%;
+		max-width: 330px;
+		height: 275px;
+		overflow: hidden;
+		margin: 0 10px;
+	}
+
+	.play {    
+		right: 83px;
+		left: auto;
+	}
+
+	.xbone {
+		right: 112px;
+		left: auto;
+	}
+
+	.apple {
+		right: 122px;
+		left: auto;
+	}
+
+	.roku {
+		right: 120px;
+		left: auto;
+	}
+
+	.android {
+		right: 90px;
+		left: auto;
+	}
+
+	.fire {
+		right: 70px;
+		left: auto;
+	}
+
+	.switch {
+		right: 22px;
+		left: auto;
+	}
+
+	.link-card {
+		max-width: 100%;
+	}
+
+	.img {
+		display: block;
+		max-width: none;
+		width: auto;
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: contain;
+	}
+
+	.text {
+		font-size: 18px;
+		top: 25px;
+	}
+
+	.link-card {
+		right: 30px;
+		bottom: 35px;
+		width: 110px;
+	}
+}

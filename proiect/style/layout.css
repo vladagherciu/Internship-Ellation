@@ -1,0 +1,28 @@
+.header-wrapper {
+	background: #1b1a26;
+	border-bottom: 2px solid #ffdf00;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1050px;
+	padding: 0 15px;
+}
+
+.section-wrapper {
+	position: relative;
+	flex: 1;
+	background-image: url("../assets/vid_bg@2x.png");
+	background-size: 45% auto;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: #1b1a26;
+}
+
+.footer-wrapper {
+	background: #1b1a26;
+	position: relative;
+}
